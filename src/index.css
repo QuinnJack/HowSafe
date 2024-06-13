@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Della+Respira&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PPEditorialNew";
+  src: url("./assets/PPEditorialNew-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-ppeditorialnew {
+  font-family: "PPEditorialNew", serif;
+}
+
+.highlight {
+  font-weight: 550;
+  color: #005461;
+  background-color: #cdecec;
+  padding: 0 2px;
+  /*   font-family: "Verdana", sans-serif; */
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+}

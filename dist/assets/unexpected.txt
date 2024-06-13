@@ -1,0 +1,77 @@
+
+Most Common Crimes by Ward Compared to the Average
+Ward 1 - Orléans East-Cumberland: Theft of Motor Vehicle (Count: 130, Expected: 36.14, Difference: 93.86)
+Ward 10 - Gloucester-Southgate: Theft of Motor Vehicle (Count: 147, Expected: 80.76, Difference: 66.24)
+Ward 11 - Beacon Hill-Cyrville: Theft $5000 and Under (Count: 1277, Expected: 1066.26, Difference: 210.74)
+Ward 12 - Rideau-Vanier: Theft $5000 and Under (Count: 3717, Expected: 3309.82, Difference: 407.18)
+Ward 13 - Rideau-Rockcliffe: Assaults (Count: 257, Expected: 207.10, Difference: 49.90)
+Ward 14 - Somerset: Break and Enter (Count: 343, Expected: 267.02, Difference: 75.98)
+Ward 15 - Kitchissippi: Theft $5000 and Under (Count: 1333, Expected: 1088.90, Difference: 244.10)
+Ward 16 - River: Assaults (Count: 184, Expected: 142.70, Difference: 41.30)
+Ward 17 - Capital: Theft $5000 and Under (Count: 1518, Expected: 1205.33, Difference: 312.67)
+Ward 18 - Alta Vista: Theft $5000 and Under (Count: 1002, Expected: 973.00, Difference: 29.00)
+Ward 19 - Orléans South-Navan: Theft of Motor Vehicle (Count: 137, Expected: 61.51, Difference: 75.49)
+Ward 2 - Orléans West-Innes: Theft of Motor Vehicle (Count: 84, Expected: 38.76, Difference: 45.24)
+Ward 20 - Osgoode: Break and Enter (Count: 65, Expected: 30.32, Difference: 34.68)
+Ward 21 - Rideau-Jock: Break and Enter (Count: 54, Expected: 24.38, Difference: 29.62)
+Ward 22 - Riverside South-Findlay Creek: Theft of Motor Vehicle (Count: 108, Expected: 32.57, Difference: 75.43)
+Ward 23 - Kanata South: Mischief (Count: 91, Expected: 69.69, Difference: 21.31)
+Ward 24 - Barrhaven East: Theft of Motor Vehicle (Count: 134, Expected: 35.19, Difference: 98.81)
+Ward 3 - Barrhaven West: Theft of Motor Vehicle (Count: 146, Expected: 63.23, Difference: 82.77)
+Ward 4 - Kanata North: Mischief (Count: 86, Expected: 64.61, Difference: 21.39)
+Ward 5 - West Carleton-March: Break and Enter (Count: 33, Expected: 13.60, Difference: 19.40)
+Ward 6 - Stittsville: Mischief (Count: 122, Expected: 61.80, Difference: 60.20)
+Ward 7 - Bay: Theft $5000 and Under (Count: 1077, Expected: 1009.66, Difference: 67.34)
+Ward 8 - College: Theft $5000 and Under (Count: 1068, Expected: 966.00, Difference: 102.01)
+Ward 9 - Knoxdale-Merivale: Theft of Motor Vehicle (Count: 88, Expected: 72.35, Difference: 15.65)
+
+Most Uncommon Crimes by Ward Compared to the Average
+Ward 1 - Orléans East-Cumberland	Theft $5000 and Under	136	305.65	-169.65
+Ward 10 - Gloucester-Southgate	Theft $5000 and Under	520	682.99	-162.99
+Ward 11 - Beacon Hill-Cyrville	Assaults	152	231.18	-79.18
+Ward 12 - Rideau-Vanier	Theft of Motor Vehicle	111	391.39	-280.39
+Ward 13 - Rideau-Rockcliffe	Theft $5000 and Under	920	955.21	-35.21
+Ward 14 - Somerset	Theft of Motor Vehicle	60	217.82	-157.82
+Ward 15 - Kitchissippi	Mischief	138	218.26	-80.26
+Ward 16 - River	Theft $5000 and Under	541	658.19	-117.19
+Ward 17 - Capital	Assaults	161	261.33	-100.33
+Ward 18 - Alta Vista	Mischief	180	195.03	-15.03
+Ward 19 - Orléans South-Navan	Break and Enter	35	75.41	-40.41
+Ward 2 - Orléans West-Innes	Theft $5000 and Under	216	327.75	-111.75
+Ward 20 - Osgoode	Theft $5000 and Under	116	209.15	-93.15
+Ward 21 - Rideau-Jock	Theft $5000 and Under	100	168.19	-68.19
+Ward 22 - Riverside South-Findlay Creek	Theft $5000 and Under	197	275.46	-78.46
+Ward 23 - Kanata South	Theft $5000 and Under	299	347.69	-48.69
+Ward 24 - Barrhaven East	Theft $5000 and Under	143	297.56	-154.56
+Ward 3 - Barrhaven West	Theft $5000 and Under	457	534.75	-77.75
+Ward 4 - Kanata North	Theft $5000 and Under	292	322.36	-30.36
+Ward 5 - West Carleton-March	Theft $5000 and Under	40	93.80	-53.80
+Ward 6 - Stittsville	Theft $5000 and Under	191	308.34	-117.34
+Ward 7 - Bay	Mischief	156	202.38	-46.38
+Ward 8 - College	Break and Enter	107	140.04	-33.04
+Ward 9 - Knoxdale-Merivale	Theft $5000 and Under	589	611.83	-22.83
+
+
+Somerset: 3.53x more dangerous
+Rideau-Vanier: 3.07x more dangerous
+Beacon Hill Cyrville: 1.78x more dangerous
+Rideau-Rockcliffe: 1.56x more dangerous
+Alta Vista: 1.37x more dangerous
+Capital: 1.32x more dangerous
+Kitchissippi: 1.21x more dangerous
+Bay: 1.11x more dangerous
+College: 1.02x more dangerous
+Gloucester-Southgate: 1.16x safer
+Knoxdale Merivale: 1.27x safer
+River: 1.35x safer
+Innes: 1.48x safer
+Cumberland: 1.90x safer
+Orléans: 1.98x safer
+Barrhaven West: 2.01x safer
+Rideau-Goulbourn: 2.30x safer
+Kanata North: 2.47x safer
+Kanata South: 2.56x safer
+Osgoode: 2.74x safer
+Stittsville: 3.04x safer
+Rideau-Jock: 3.52x safer
+West Carleton-March: 4.49x safer
