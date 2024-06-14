@@ -10,15 +10,12 @@ const MAPBOX_TOKEN =
   "pk.eyJ1IjoicWRvZ2dlcjY5IiwiYSI6ImNseDd1MWZ4ZzBrdmsyanB2d3E4MHY4ejQifQ.aXV61OY1jofAOXK_28omhA";
 
 export default function Choropleth() {
-  const [year, setYear] = useState(2015);
   const [allData, setAllData] = useState(null);
   const [hoverInfo, setHoverInfo] = useState(null);
-
+  const [normalization, setNormalization] = useState("percapita");
   useEffect(() => {
     /* global fetch */
-    fetch(
-      "https://raw.githubusercontent.com/uber/react-map-gl/master/examples/.data/us-income.geojson"
-    )
+    fetch("wards.geojson")
       .then((resp) => resp.json())
       .then((json) => setAllData(json))
       .catch((err) => console.error("Could not load data", err)); // eslint-disable-line
@@ -37,17 +34,18 @@ export default function Choropleth() {
 
   const data = useMemo(() => {
     return (
-      allData && updatePercentiles(allData, (f) => f.properties.income[year])
+      allData &&
+      updatePercentiles(allData, (f) => f.properties.income[normalization])
     );
-  }, [allData, year]);
+  }, [allData, normalization]);
 
   return (
-    <div className="map-container">
+    <div id="map" className="w-10% h-96">
       <Map
         initialViewState={{
-          latitude: 40,
-          longitude: -100,
-          zoom: 3,
+          latitude: 45.2851,
+          longitude: -75.7803,
+          zoom: 8.2,
         }}
         mapStyle="mapbox://styles/mapbox/light-v9"
         mapboxAccessToken={MAPBOX_TOKEN}
@@ -63,7 +61,7 @@ export default function Choropleth() {
             className="tooltip"
             style={{ left: hoverInfo.x, top: hoverInfo.y }}
           >
-            <div>State: {hoverInfo.feature.properties.name}</div>
+            <div>Ward: {hoverInfo.feature.properties.NAME}</div>
             <div>
               Median Household Income: {hoverInfo.feature.properties.value}
             </div>
