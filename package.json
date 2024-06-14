@@ -17,6 +17,7 @@
     "@headlessui/tailwindcss": "^0.2.1",
     "@remixicon/react": "^4.2.0",
     "@tremor/react": "^3.17.2",
+    "@turf/turf": "^7.0.0",
     "@types/mapbox-gl": "^3.1.0",
     "leaflet": "^1.9.4",
     "leaflet.heat": "^0.2.0",

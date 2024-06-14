@@ -1,3 +1,4 @@
+// App.jsx
 import React, { useState } from "react";
 import Header from "./components/Header";
 import WardContent from "./components/WardContent";
@@ -9,7 +10,7 @@ const App = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const wards = [
     "My Ward",
-    "Orléans",
+    "Orléans East-Cumberland",
     "Innes",
     "Barrhaven West",
     "Kanata North",
@@ -61,7 +62,7 @@ const App = () => {
         closeDropdown={closeDropdown}
       />
       <div className="w-[40%] max-w-4xl p-2 mt-8">
-        <WardContent selectedWard={selectedWard} />
+        <WardContent selectedWard={selectedWard} selectWard={selectWard} />
         <br /> <br />
         <div className="text-[#052E41] text-sm font-light">
           <p>
@@ -93,7 +94,7 @@ const App = () => {
             </a>
           </p>
           <br />
-          <p className="text-center text-[#004360] italic font-custom-serif tracking-wider">
+          <p className="text-center text-[#175470] font-custom-serif tracking-wider">
             By Quinn Jackson
           </p>
 
