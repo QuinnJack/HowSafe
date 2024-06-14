@@ -11,9 +11,9 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
-          "total": 31189,
-          "percapita": 33002
+        "crime": {
+          "total": 1000,
+          "percapita": 10
         },
 
         "NAME": "Somerset",
@@ -213,7 +213,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -479,7 +479,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -769,7 +769,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -1068,7 +1068,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -1212,7 +1212,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -1528,7 +1528,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -2149,7 +2149,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -2388,7 +2388,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -2749,7 +2749,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -2908,7 +2908,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -3255,7 +3255,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -3480,7 +3480,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -3983,7 +3983,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -4484,7 +4484,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -4851,7 +4851,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -5193,7 +5193,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -5890,7 +5890,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -6735,7 +6735,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -7575,7 +7575,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -8715,7 +8715,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -8979,7 +8979,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -10222,7 +10222,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },
@@ -10548,7 +10548,7 @@
     {
       "type": "Feature",
       "properties": {
-        "income": {
+        "crime": {
           "total": 31189,
           "percapita": 33002
         },

@@ -35,7 +35,7 @@ export default function Choropleth() {
   const data = useMemo(() => {
     return (
       allData &&
-      updatePercentiles(allData, (f) => f.properties.income[normalization])
+      updatePercentiles(allData, (f) => f.properties.crime[normalization])
     );
   }, [allData, normalization]);
 

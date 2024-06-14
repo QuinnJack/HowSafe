@@ -8,6 +8,7 @@ import "leaflet/dist/leaflet.css";
 import Heatmap from "./Heatmap";
 import Choropleth from "./Choropleth";
 const wardContent = {
+  "My Ward": <div></div>,
   Testing: (
     <div>
       {" "}

@@ -8,6 +8,7 @@ const App = () => {
   const [selectedWard, setSelectedWard] = useState("Testing");
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const wards = [
+    "My Ward",
     "Orléans",
     "Innes",
     "Barrhaven West",
