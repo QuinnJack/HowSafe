@@ -6,8 +6,14 @@ import React from "react";
 import Ward from "./Ward";
 import "leaflet/dist/leaflet.css";
 import Heatmap from "./Heatmap";
-
+import Choropleth from "./Choropleth";
 const wardContent = {
+  Testing: (
+    <div>
+      {" "}
+      <Choropleth />{" "}
+    </div>
+  ),
   Orléans: (
     <div>
       <div className="text-[#052E41] text-sm font-light">

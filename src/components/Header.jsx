@@ -25,7 +25,7 @@ const Header = ({
   }, [dropdownRef, closeDropdown]);
 
   return (
-    <div className="flex flex-col items-center mt-20 text-5xl font-ppeditorialnew tracking-wide">
+    <div className="flex flex-col items-center mt-20 text-5xl font-custom-serif tracking-wide">
       <div className="flex items-center">
         <h1 className="font-bold" style={{ color: "#052E41" }}>
           How Safe is

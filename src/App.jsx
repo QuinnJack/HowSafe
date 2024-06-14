@@ -5,7 +5,7 @@ import "leaflet/dist/leaflet.css";
 import Heatmap from "./components/Heatmap";
 
 const App = () => {
-  const [selectedWard, setSelectedWard] = useState("Ottawa");
+  const [selectedWard, setSelectedWard] = useState("Testing");
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const wards = [
     "Orléans",
@@ -33,6 +33,7 @@ const App = () => {
     "Kanata South",
     "Barrhaven East",
     "Ottawa",
+    "Testing",
   ];
 
   const toggleDropdown = () => {
@@ -91,7 +92,10 @@ const App = () => {
             </a>
           </p>
           <br />
-          <p className="text-center text-[#1f333c] italic ">By Quinn Jackson</p>
+          <p className="text-center text-[#004360] italic font-custom-serif tracking-wider">
+            By Quinn Jackson
+          </p>
+
           <br />
         </div>
       </div>
