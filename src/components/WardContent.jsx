@@ -8,7 +8,7 @@ import "leaflet/dist/leaflet.css";
 import Heatmap from "./Heatmap";
 import Choropleth from "./Choropleth";
 import MyWard from "./MyWard.jsx";
-
+import ComparisonMap from "./ComparisonMap";
 const wardContent = (selectedWard, selectWard) => {
   const wards = {
     "My Ward": (
@@ -20,6 +20,7 @@ const wardContent = (selectedWard, selectWard) => {
     Testing: (
       <div>
         {" "}
+        <ComparisonMap />
         <Choropleth />{" "}
       </div>
     ),
@@ -1226,7 +1227,7 @@ const wardContent = (selectedWard, selectWard) => {
           index="name"
           categories={["Crimes per 100,000 residents"]}
           colors={["cyan-900"]}
-          intervalSize={0}
+          intervalSize={100}
           tickGap={0}
           valueFormatter={(number) =>
             Intl.NumberFormat("us").format(number).toString()
@@ -1243,7 +1244,6 @@ const wardContent = (selectedWard, selectWard) => {
           }}
         />
 
-        <br />
         <div className="text-[#052E41] text-sm font-light">
           <p>
             Examining crime data by intersection reveals a clearer picture of

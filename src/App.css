@@ -1,29 +1,30 @@
 .ward-text {
-    color: #052e41;
-    transition: color 0.3s ease-in-out;
+  color: #052e41;
+  transition: color 0.3s ease-in-out;
 }
 
 .ward-text:hover {
-    color: #00606f;
+  color: #00606f;
 }
+
 html,
 body,
 #root {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 .app-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh; /* Full height of the viewport */
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
 }
 
 .map-container {
-    flex-grow: 1; /* Make the map container grow to take up available space */
-    width: 100%;
+  flex-grow: 1; /* Make the map container grow to take up available space */
+  width: 100%;
 }
 
 .info-container {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }

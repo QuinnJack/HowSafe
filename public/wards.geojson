@@ -12,7 +12,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 1000,
+          "total": 3417,
           "percapita": 10
         },
 
@@ -214,7 +214,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 645,
           "percapita": 33002
         },
         "NAME": "Kanata South",
@@ -480,7 +480,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 598,
           "percapita": 33002
         },
         "NAME": "Kanata North",
@@ -770,7 +770,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 2236,
           "percapita": 33002
         },
         "NAME": "Capital",
@@ -1069,7 +1069,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 2020,
           "percapita": 33002
         },
         "NAME": "Kitchissippi",
@@ -1213,7 +1213,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 1772,
           "percapita": 33002
         },
         "NAME": "Rideau-Rockcliffe",
@@ -1529,7 +1529,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 567,
           "percapita": 33002
         },
         "NAME": "Orléans East-Cumberland",
@@ -2150,7 +2150,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 1805,
           "percapita": 33002
         },
         "NAME": "Alta Vista",
@@ -2389,7 +2389,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 1221,
           "percapita": 33002
         },
         "NAME": "River",
@@ -2750,7 +2750,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 1873,
           "percapita": 33002
         },
         "NAME": "Bay",
@@ -2909,7 +2909,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 1135,
           "percapita": 33002
         },
         "NAME": "Knoxdale-Merivale",
@@ -3256,7 +3256,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 572,
           "percapita": 33002
         },
         "NAME": "Stittsville",
@@ -3481,7 +3481,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 965,
           "percapita": 33002
         },
         "NAME": "Orléans South-Navan",
@@ -3984,7 +3984,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 1978,
           "percapita": 33002
         },
         "NAME": "Beacon Hill-Cyrville",
@@ -4485,7 +4485,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 1267,
           "percapita": 33002
         },
         "NAME": "Gloucester-Southgate",
@@ -4852,7 +4852,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 1792,
           "percapita": 33002
         },
         "NAME": "College",
@@ -5194,7 +5194,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 174,
           "percapita": 33002
         },
         "NAME": "West Carleton-March",
@@ -5891,7 +5891,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 608,
           "percapita": 33002
         },
         "NAME": "Orléans West-Innes",
@@ -6736,7 +6736,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 511,
           "percapita": 33002
         },
         "NAME": "Riverside South-Findlay Creek",
@@ -7576,7 +7576,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 312,
           "percapita": 33002
         },
         "NAME": "Rideau-Jock",
@@ -8716,7 +8716,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 6140,
           "percapita": 33002
         },
         "NAME": "Rideau-Vanier",
@@ -8980,7 +8980,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 388,
           "percapita": 33002
         },
         "NAME": "Osgoode",
@@ -10223,7 +10223,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 552,
           "percapita": 33002
         },
         "NAME": "Barrhaven East",
@@ -10549,7 +10549,7 @@
       "type": "Feature",
       "properties": {
         "crime": {
-          "total": 31189,
+          "total": 992,
           "percapita": 33002
         },
         "NAME": "Barrhaven West",

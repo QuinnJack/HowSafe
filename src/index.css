@@ -10,6 +10,9 @@
   font-style: normal;
 }
 
+::selection {
+  background: #cdeced; /* Background color of the selected text */
+}
 .font-custom-serif {
   font-family: "EditorialNew", Garamond, serif;
 }

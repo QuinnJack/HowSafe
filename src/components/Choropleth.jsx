@@ -12,7 +12,7 @@ const MAPBOX_TOKEN =
 export default function Choropleth() {
   const [allData, setAllData] = useState(null);
   const [hoverInfo, setHoverInfo] = useState(null);
-  const [normalization, setNormalization] = useState("percapita");
+  const [normalization, setNormalization] = useState("total");
   useEffect(() => {
     /* global fetch */
     fetch("wards.geojson")
