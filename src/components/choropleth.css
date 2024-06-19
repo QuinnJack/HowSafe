@@ -12,10 +12,20 @@
   position: absolute;
   margin: 8px;
   padding: 4px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  max-width: 300px;
-  font-size: 10px;
+  background: rgba(4, 35, 53, 0.5);
+  color: #eefaff;
+  max-width: 400px;
+  font-size: 11px;
+  font-family: sans-serif;
+  font-weight: light;
   z-index: 9;
   pointer-events: none;
+  opacity: 0;
+  transform: translateY(-10px); /* Start slightly above */
+  transition: opacity 0.2s ease-in, transform 0.2s ease-in; /* Add a transition effect */
+}
+
+.tooltip.show {
+  opacity: 1;
+  transform: translateY(0); /* Move to final position */
 }

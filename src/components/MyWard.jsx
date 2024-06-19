@@ -81,7 +81,7 @@ const MyWard = ({ selectWard }) => {
   return (
     <div className="w-full  mx-auto">
       <div className="mb-4">
-        <h2 className="text-xl font-light text-[#052E41]">Find Your Ward</h2>
+        <h2 className="text-lg font-light text-[#052E41]">Find Your Ward</h2>
         <p className="text-[#1c2a30] font-light text-sm">
           Enter your address or location to find your ward.
         </p>
@@ -92,7 +92,7 @@ const MyWard = ({ selectWard }) => {
             onClick={getGeolocation}
             className="px-4 py-2 border border-gray-300 text-gray-700 bg-white hover:bg-gray-50 rounded-md shadow-sm"
           >
-            <p className="text-[#1c2a30] font-light text-md ">
+            <p className="text-[#1c2a30] font-light text-sm ">
               Get My Location
             </p>
           </button>
@@ -101,12 +101,12 @@ const MyWard = ({ selectWard }) => {
             value={address}
             onChange={(e) => setAddress(e.target.value)}
             placeholder="Enter Your Address or Postal Code"
-            className="flex-1 px-4 py-2 border border-gray-300 rounded-md shadow-sm text-[#1c2a30] font-light text-md"
+            className="flex-1 px-4 py-2 border border-gray-300 rounded-md shadow-sm text-[#1c2a30] font-light text-sm"
           />
         </div>
         <button
           onClick={handleAddressSubmit}
-          className="w-full px-4 py-2 bg-[#0a394e] text-white text-xl font-custom-serif tracking-wider capitalize rounded-lg hover:bg-[#0f3f52] border border-[#0b1c24] shadow"
+          className="w-full px-4 py-2 bg-[#0a394e] text-white text-lg font-custom-serif tracking-wider capitalize rounded-lg hover:bg-[#0f3f52] border border-[#0b1c24] shadow"
         >
           Find Ward
         </button>

@@ -20,7 +20,6 @@ const wardContent = (selectedWard, selectWard) => {
     Testing: (
       <div>
         {" "}
-        <ComparisonMap />
         <Choropleth />{" "}
       </div>
     ),
@@ -71,7 +70,7 @@ const wardContent = (selectedWard, selectWard) => {
         </div>
       </div>
     ),
-    Innes: (
+    "Orléans West-Innes": (
       <div>
         <div className="text-[#052E41] text-sm font-light">
           <p>
@@ -1170,7 +1169,6 @@ const wardContent = (selectedWard, selectWard) => {
             individual wards, across the city and within Canada.
           </p>
         </div>
-
         <div className="text-[#052E41] text-sm font-light">
           <br />
           <p>
@@ -1185,65 +1183,81 @@ const wardContent = (selectedWard, selectWard) => {
         <h3 className="text-lg font-medium text-[#052E41]  ">
           Crimes per 100,000 residents in individual wards
         </h3>
-        <BarChart
-          className="mt-6 custom-bar-chart"
-          data={[
-            { name: "Somerset", "Crimes per 100,000 residents": 11624 },
-            { name: "Rideau-Vanier", "Crimes per 100,000 residents": 10125 },
-            {
-              name: "Beacon Hill Cyrville",
-              "Crimes per 100,000 residents": 5871,
-            },
-            { name: "Rideau-Rockcliffe", "Crimes per 100,000 residents": 5147 },
-            { name: "Alta Vista", "Crimes per 100,000 residents": 4507 },
-            { name: "Capital", "Crimes per 100,000 residents": 4347 },
-            { name: "Kitchissippi", "Crimes per 100,000 residents": 3977 },
-            { name: "Bay", "Crimes per 100,000 residents": 3674 },
-            { name: "College", "Crimes per 100,000 residents": 3358 },
-            {
-              name: "Gloucester-Southgate",
-              "Crimes per 100,000 residents": 2838,
-            },
-            { name: "Knoxdale Merivale", "Crimes per 100,000 residents": 2604 },
-            { name: "River", "Crimes per 100,000 residents": 2450 },
-            { name: "Innes", "Crimes per 100,000 residents": 2231 },
-            { name: "Cumberland", "Crimes per 100,000 residents": 1739 },
-            { name: "Orléans", "Crimes per 100,000 residents": 1661 },
-            { name: "Barrhaven West", "Crimes per 100,000 residents": 1640 },
-            {
-              name: "     Rideau-Goulbourn",
-              "Crimes per 100,000 residents": 1433,
-            },
-            { name: "Kanata North", "Crimes per 100,000 residents": 1335 },
-            { name: "Kanata South", "Crimes per 100,000 residents": 1285 },
-            { name: "Osgoode", "Crimes per 100,000 residents": 1203 },
-            { name: "Stittsville", "Crimes per 100,000 residents": 1083 },
-            { name: "Rideau-Jock", "Crimes per 100,000 residents": 935 },
-            {
-              name: "West Carleton-March",
-              "Crimes per 100,000 residents": 734,
-            },
-          ]}
-          index="name"
-          categories={["Crimes per 100,000 residents"]}
-          colors={["cyan-900"]}
-          intervalSize={100}
-          tickGap={0}
-          valueFormatter={(number) =>
-            Intl.NumberFormat("us").format(number).toString()
-          }
-          yAxisWidth={50}
-          allowDecimals={true}
-          showAnimation={true}
-          showLegend={false}
-          rotateLabelX={{
-            angle: 270,
-            verticalShift: 65,
-            xAxisHeight: 140,
-            textAnchor: "middle",
-          }}
-        />
-
+        <div className="font-family-monospace fontFamily-monospace">
+          <BarChart
+            className="mt-6 custom-bar-chart font-family-monospace fontFamily-monospace"
+            fontFamily="monospace"
+            data={[
+              {
+                name: "Rideau-Vanier",
+                "Crimes per 100,000 residents": 11624.38,
+              },
+              { name: "Somerset", "Crimes per 100,000 residents": 7124.69 },
+              {
+                name: "Beacon Hill Cyrville",
+                "Crimes per 100,000 residents": 5871.18,
+              },
+              { name: "Capital", "Crimes per 100,000 residents": 5147.33 },
+              { name: "Kitchissippi", "Crimes per 100,000 residents": 4506.92 },
+              {
+                name: "Rideau-Rockcliffe",
+                "Crimes per 100,000 residents": 4347.4,
+              },
+              { name: "Alta Vista", "Crimes per 100,000 residents": 3976.65 },
+              { name: "Bay", "Crimes per 100,000 residents": 3673.99 },
+              { name: "College", "Crimes per 100,000 residents": 3358.32 },
+              {
+                name: "Knoxdale Merivale",
+                "Crimes per 100,000 residents": 2837.5,
+              },
+              {
+                name: "Gloucester-Southgate",
+                "Crimes per 100,000 residents": 2604.32,
+              },
+              { name: "River", "Crimes per 100,000 residents": 2450.33 },
+              { name: "Orléans", "Crimes per 100,000 residents": 1960.19 },
+              {
+                name: "Barrhaven West",
+                "Crimes per 100,000 residents": 1661.09,
+              },
+              { name: "Kanata North", "Crimes per 100,000 residents": 1334.82 },
+              { name: "Kanata South", "Crimes per 100,000 residents": 1284.86 },
+              { name: "Innes", "Crimes per 100,000 residents": 1281.08 },
+              {
+                name: "Rideau-Goulbourn",
+                "Crimes per 100,000 residents": 1202.73,
+              },
+              { name: "Osgoode", "Crimes per 100,000 residents": 1202.73 },
+              { name: "Cumberland", "Crimes per 100,000 residents": 1135.36 },
+              { name: "Stittsville", "Crimes per 100,000 residents": 1082.92 },
+              { name: "Rideau-Jock", "Crimes per 100,000 residents": 934.97 },
+              {
+                name: "West Carleton-March",
+                "Crimes per 100,000 residents": 734.18,
+              },
+            ]}
+            index="name"
+            categories={["Crimes per 100,000 residents"]}
+            colors={["cyan-900"]}
+            intervalSize={100}
+            tickGap={0}
+            valueFormatter={(number) =>
+              Intl.NumberFormat("us").format(number).toString()
+            }
+            yAxisWidth={50}
+            allowDecimals={true}
+            showAnimation={true}
+            showLegend={false}
+            rotateLabelX={{
+              angle: 270,
+              verticalShift: 65,
+              xAxisHeight: 140,
+              textAnchor: "middle",
+            }}
+          />
+        </div>
+        <Choropleth />
+        <br />
         <div className="text-[#052E41] text-sm font-light">
           <p>
             Examining crime data by intersection reveals a clearer picture of
@@ -1256,12 +1270,11 @@ const wardContent = (selectedWard, selectWard) => {
           </p>
         </div>
         <br />
-
         <h3 className="text-lg font-medium text-[#052E41]  ">
           Number of Crimes per Intersection
         </h3>
         <BarChart
-          className="mt-6 custom-bar-chart"
+          className="mt-6 custom-bar-chart font-family-monospace fontFamily-monospace"
           data={[
             { name: "Nelson / Rideau", "Number of crimes": 933 },
             { name: "William / Rideau", "Number of crimes": 841 },
@@ -1459,7 +1472,6 @@ const wardContent = (selectedWard, selectWard) => {
           index="year"
         />
         <br />
-
         <h3 className="text-lg font-medium text-[#052E41]  ">
           Crime Severity Index Across Major Metropolitan Areas
         </h3>

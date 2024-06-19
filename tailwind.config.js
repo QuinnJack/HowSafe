@@ -13,6 +13,9 @@ export default {
     transparent: "transparent",
     current: "currentColor",
     extend: {
+      fontFamily: {
+        monospace: ["Roboto Mono", "Menlo", "Consolas", "Monaco", "Verdana"],
+      },
       colors: {
         // light mode
         tremor: {
@@ -101,7 +104,7 @@ export default {
         "tremor-metric": ["1.875rem", { lineHeight: "2.25rem" }],
       },
       fontFamily: {
-        Verdana: ["Verdana", "sans-serif"],
+        monospace: ["Roboto Mono", "Menlo", "Consolas", "Monaco", "Verdana"],
       },
     },
   },

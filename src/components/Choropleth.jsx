@@ -3,7 +3,7 @@ import { useState, useEffect, useMemo, useCallback } from "react";
 import { createRoot } from "react-dom/client";
 import Map, { Source, Layer } from "react-map-gl";
 import { dataLayer } from "./choropleth-style";
-import { updatePercentiles } from "./utils";
+import { updateRanks } from "./utils";
 import "./choropleth.css";
 
 const MAPBOX_TOKEN =
@@ -34,8 +34,7 @@ export default function Choropleth() {
 
   const data = useMemo(() => {
     return (
-      allData &&
-      updatePercentiles(allData, (f) => f.properties.crime[normalization])
+      allData && updateRanks(allData, (f) => f.properties.crime[normalization])
     );
   }, [allData, normalization]);
 
@@ -58,15 +57,13 @@ export default function Choropleth() {
         </Source>
         {hoverInfo && (
           <div
-            className="tooltip"
+            className={`tooltip ${hoverInfo ? "show" : ""}`}
             style={{ left: hoverInfo.x, top: hoverInfo.y }}
           >
-            <div>Ward: {hoverInfo.feature.properties.NAME}</div>
+            <div>{hoverInfo.feature.properties.NAME}</div>
+            <div>Number Of Crimes: {hoverInfo.feature.properties.value}</div>
             <div>
-              Median Household Income: {hoverInfo.feature.properties.value}
-            </div>
-            <div>
-              Percentile: {(hoverInfo.feature.properties.percentile / 8) * 100}
+              <div>Crime Ranking: {hoverInfo.feature.properties.rank}</div>
             </div>
           </div>
         )}

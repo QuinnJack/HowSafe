@@ -6,12 +6,12 @@ import "leaflet/dist/leaflet.css";
 import Heatmap from "./components/Heatmap";
 
 const App = () => {
-  const [selectedWard, setSelectedWard] = useState("Testing");
+  const [selectedWard, setSelectedWard] = useState("Ottawa");
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const wards = [
     "My Ward",
     "Orléans East-Cumberland",
-    "Innes",
+    "Orléans West-Innes",
     "Barrhaven West",
     "Kanata North",
     "West Carleton-March",
@@ -35,7 +35,6 @@ const App = () => {
     "Kanata South",
     "Barrhaven East",
     "Ottawa",
-    "Testing",
   ];
 
   const toggleDropdown = () => {
@@ -87,14 +86,39 @@ const App = () => {
             <br />
             <br />
             <a
-              href=" https://data.ottawapolice.ca"
+              href="https://data.ottawapolice.ca"
               className="text-cyan-600 underline"
             >
               Policing and Ward Shapefiles
             </a>
+            <br />
+            <br />
+            Consider contacting your{" "}
+            <a
+              href="https://ottawa.ca/en/city-hall/mayor-and-city-councillors"
+              className="text-cyan-700 underline"
+            >
+              mayor and ward's councillor
+            </a>{" "}
+            as well as volunteering your time or money to causes around the
+            city, such as{" "}
+            <a
+              href="https://ottawamission.com/get-involved/#ways-to-give"
+              className="text-cyan-700 underline"
+            >
+              The Ottawa Mission
+            </a>{" "}
+            or{" "}
+            <a
+              href="https://www.ottawafoodbank.ca/donate/"
+              className="text-cyan-700 underline"
+            >
+              The Ottawa Food Bank
+            </a>
+            .
           </p>
           <br />
-          <p className="text-center text-[#175470] font-custom-serif tracking-wider">
+          <p className="text-center text-cyan-900 font-custom-serif tracking-wider">
             By Quinn Jackson
           </p>
 
